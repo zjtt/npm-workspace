@@ -1,0 +1,13 @@
+{
+    "name": "my-monorepo",
+    "private": true,
+    "workspaces": [
+        "packages/*"
+    ],
+    "scripts": {
+        "build": "npm run build --workspace packages/package-b"
+    },
+    "dependencies": {
+        "lodash": "^4.17.21"
+    }
+}

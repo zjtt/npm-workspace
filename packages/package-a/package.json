@@ -1,0 +1,13 @@
+{
+    "name": "package-a",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "build": "echo Building package-a"
+    },
+    "dependencies": {
+        "jest": "^29.7.0",
+        "lodash": "^4.17.21",
+        "vue": "^3.4.38"
+    }
+}
